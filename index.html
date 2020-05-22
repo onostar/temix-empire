@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="temidayo Omotoye">
+    <meta name="description" content="Temix Empire is a Catering Company, we are Specialized in Cakes of all kinds Like Wedding cakes, Birthday cakes, Anniversary cakes, chcocolate cakes, Coconut Cakes, Banana cakes and many others. We also provide Make-up service for weddings, Party, Birthdays and Photo Shoot, we supply quality beddings for Hotels, Schools, Hospitals and Homes. We also specialize in Event Planning, Decorations for all Occations, Fashionable Beads, and Graphic Designs. Temix Empire always serve up Quality of Service you can trust">
+    <meta name="keywords" content="cakes, beddings, wedding cakes, birthday cakes, decorations, weddings, makeup, make-up, make-up artiste, event planning, events, chcocolate cakes, icing">
+    <title>Temix Empire - Quality you can trust</title>
+    <link rel="icon" href="images/temix_empire_logo.png" type="image/jpg" size="32X32">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body onload="displayHelp()">
+        <!-- Top header -->
+        <div class="topHeader" id="topHeader">
+            <section class="socialLinks">
+                <a target="-blank" href="https://facebook.com/temixempire" title="Follow us on facebook"><i class="fab fa-facebook" style="color:#747171;"></i></a>
+                <a target="_blank" href="https://twitter.com/Temix Empire" title="Follow us on twitter"><i class="fab fa-twitter" style="color:#747171;"></i></a>
+                <a target="_blank" href="https://instagram.com/temix_empire" title="Follow us on instagram"><i class="fab fa-instagram" style="color:#747171;"></i></a>
+            </section>
+            <section class="callLinks">
+                <p><i class="fas fa-phone-alt" style="color:#747171;"></i>+2349023140300</p>
+                
+                <p><i class="fab fa-whatsapp" style="color:#747171;"></i>+2348157985866</p>
+            </section>
+        </div>
+        <!-- main header with navigation -->
+        <header id="mainHeader">
+            <div class="logo_title">
+                <a href="index.html">
+                    <img src="images/temix_empire_logo.png" alt="temix empire">
+                    <h1>
+                        <div class="title">Temix Empire</div>
+                        <div class="tagline">Cakes|Events|Makeup|Beddings</div>
+                    </h1>
+                </a>
+            </div>
+            <!-- navigation -->
+            <nav id="navigation">
+                <ul>
+                    <li><a href="about.html" title="who we are">About</a></li>
+                    <li><a href="javascript:void(0);" title="What we do">services<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="cakes.html" title="Baking and of cakes">Cakes</a></li>
+                            <li><a href="events.html" title="Event planning and decoration">Events</a></li>
+                            <li><a href="Beddings.html" title="Beddings for hotels and homes">Beddings</a></li>
+                            <li><a href="makeover.html" title="Professional make over">Make Over</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:void(0);" title="All our work">Gallery<i class="fas fa-sort-down"></i></a>
+                        <ul>
+                            <li><a href="cake_gallery.html" title="Baking and of cakes">Cake Photos</a></li>
+                            <li><a href="event_gallery.html" title="Event planning and decoration">Event Photos</a></li>
+                            <li><a href="Bedding_gallery.html" title="Beddings for hotels and homes">Beddings Photos</a></li>
+                            <li><a href="makeover_gallery.html" title="Professional make over">Make Over Photos</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html" title="Trending topics">Blog</a></li>
+                    <li><a href="contact.html" title="Contact us">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="displayMenu()"><a href="javascript:void(0);"><i class="fas fa-bars" style="color:#fff"></i></a></div>
+            
+        </header>
+        <!--banner slides-->
+        <section id="banner">
+            <div class="slides">
+                <div class="slide" id="slide1">
+                    <div class="slideImg">
+                        <img src="images/temix-cake.jpg">
+                    </div>
+                    <div class="slider">
+                        <h2>Where cakes become art</h2>
+                        <p>We give you the perfect cake everytime,<br> cos every cake has a story to tell</p>
+                        <button><a href="cakes.html">Order now</a></button>
+                    </div>
+                </div>
+                <div class="slide" id="slide2">
+                    <div class="slideImg">
+                        <img src="images/events_banner5.jpg">
+                    </div>
+                    <div class="slider">
+                        <h2>Exclusive Events</h2>
+                        <p>Creative and elegant events design and planning<br>We build your dream around you.</p>
+                        <button><a href="events.html">Learn more</a></button>
+                    </div>
+                </div>
+                <div class="slide" id="slide3">
+                    <div class="slideImg">
+                        <img src="images/bed6.jpg">
+                    </div>
+                    <div class="slider">
+                        <h2>Classic Beddings</h2>
+                        <p>We give you the ultimate pleasure of sleepig<br>One bed cover to rule them all.</p>
+                        <button><a href="beddings.html">Learn more</a></button>
+                    </div>
+                </div>
+                <div class="slide" id="slide4">
+                    <div class="slideImg">
+                        <img src="images/makeup_banner.jpg">
+                    </div>
+                    <div class="slider">
+                        <h2>Professional Make over</h2>
+                        <p>Your beauty is our profession</p>
+                        <button><a href="makeover.html">Learn more</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Featured addon services-->
+        <section class="addons">
+            <div class="addonfeat">
+                <section class="addonsFeatures">
+                    <i class="fas fa-shipping-fast"></i>
+                    <div class="addonsNote">
+                        <h3>Free shipping & Return</h3>
+                        <p>Free Shipping on all orders over N2000</p>
+                    </div>
+                </section>
+                <section class="addonsFeatures">
+                    <i class="far fa-money-bill-alt"></i>
+                    <div class="addonsNote">
+                        <h3>Money back Guarantee</h3>
+                        <p>15 days Money back Guarantee</p>
+                    </div>
+                </section>
+                <section class="addonsFeatures">
+                    <i class="fas fa-headset"></i>
+                    <div class="addonsNote">
+                        <h3>24/7 online support</h3>
+                        <p>We are here to help you</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <main>
+        <!-- About us -->
+        <section id="whoWeAre">
+            <h2>Get to know us</h2>
+            <hr size="5">
+            <div class="aboutUs">
+                <div class="aboutUsText">
+                    <p>Temix Empire is a Catering Company, based in Warri, Nigeria and is specialized in Cake making for all kinds of occassions which include; Weddings, Birthdays, Anniversaries, etc. We also provide Make-up service for all kinds of occasions.<br><br> We supply quality beddings for Hotels, Schools, Hospitals and Homes. We also specialize in Event Planning, Decorations for all Occations, Fashionable Beads, and Graphic Designs.<br><br>Temix Empire always serve up trusted Quality of Service. Call us today for booking; you deserve a professionally made cake and a well organized environment for that special occasions. </p>
+                    <button><a href="about.html">Read more</a></button>
+                </div>
+                <img src="images/baking_cakes.jpg" alt="Temix empire">
+            </div>
+        </section>
+        <!--Service section-->
+        <section id="ourServices">
+            <h2>Featured Services</h2>
+            <p>Quality of service is our priority. We make sure you get the best for your budget. Pick any service our service below</p>
+            <hr size="5">
+            <div class="serviceList">
+                <div class="services">
+                    <div class="service" id="cakeService">
+                        <img class="servImg" src="images/cake_banner1.jpg" alt="cake services">
+                        <div class="servSlideImg">
+                            <img src="images/cake_banner6.jpg" alt="cake services">
+                        </div>
+                        <h3>Professional catering and baking service</h3>
+                    </div>
+                    <button class="serviceBtn"><a href="cakes.html" title="Classic cakes">Cakes</a></button>
+                </div>
+                <div class="services">
+                    <div class="service" id="beddingService">
+                        <img class="servImg" src="images/bedding_slide1.jpg" alt="special beddings">
+                        <div class="servSlideImg">
+                            <img src="images/bedding_slide2.jpg" alt="special beddings">
+                        </div>
+                        <h3>Beddings for hotels and homes</h3>
+                    </div>
+                    <button class="serviceBtn"><a href="beddings.html" title="Beddings for hotels and homes">Beddings</a></button>
+                </div>
+                <div class="services">
+                    <div class="service" id="eventService">
+                        <img class="servImg" src="images/events_banner1.jpg" alt="Event services">
+                        <div class="servSlideImg">
+                            <img src="images/events_banner6.jpg" alt="Events services">
+                        </div>
+                        <h3>Events planning and Decorations</h3>
+                    </div>
+                    <button class="serviceBtn"><a href="events.html" title="Events planning and decor">Events</a></button>
+                </div>
+                <div class="services">
+                    <div class="service" id="makeUp">
+                        <img class="servImg" src="images/makeover2.jpg" alt="Make over services">
+                        <div class="servSlideImg">
+                            <img src="images/makeover.jpg" alt="Makeover service">
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <button class="serviceBtn"><a href="makeover.html" title="Professional makeover">Make Over</a></button>
+                </div>
+            </div>
+        </section>
+        <section id="callToAction">
+            <div class="callToActionImg">
+                <img src="images/temix-empire-event.jpg">
+            </div>
+            <div class="takeAction">
+                <h3>Lets plan your event</h3>
+                <p>Are you preparing for your wedding or birthday party?.<br>We have you covered. Give us a budget and we will plan your event from start to finish.<br>We guarantee you a memorable event<br><br>Book an appointment with us today</p>
+                <a href="contact.html"><button>Book Now</button></a>
+            </div>
+        </section>
+        <!-- Recent jobs -->
+        <section id="recentWork">
+            <h2>Our recent work</h2>
+            <hr size="5">
+            <p>Visit our wonder world</p>
+            <div class="recentjobs">
+                <figure>
+                    <img src="images/Pa_Omotoye_70th_birthday.jpg" alt="Pa Omotoye &0th birthday cake">
+                    
+                </figure>
+                <figure>
+                    <img src="images/event2.jpg" alt="decoration of an event center">
+                    
+                </figure>
+                <figure>
+                    <img src="images/rich_princess.jpg" alt="Rich princess b irthday cake">
+                    
+                </figure>
+                <figure>
+                    <img src="images/cake1.jpg" alt=" a little pricess birthday cake">
+                    
+                </figure>
+                <figure>
+                    <img src="images/annie_cake.jpg" alt="event decor">
+                    
+                </figure>
+                <figure>
+                    <img src="images/black_bedding.jpg" alt="black bedding">
+                    
+                </figure>
+                <figure>
+                    <img src="images/event11.jpg" alt="A wedding reception">
+                    
+                </figure>
+                <figure>
+                    <img src="images/DG_sheet.jpg" alt="D and G sheet">
+                    
+                </figure>
+            </div>
+            <button><a href="cake_gallery.html">View more</a></button>
+        </section>
+        <!-- Daily deals -->
+        <section id="dailyDeal">
+            <h2>Deal of the day</h2>
+            <hr size="5">
+            <div class="deal_of_today">
+                <div class="deal_banner">
+                    <img src="images/daily_deals.png" alt="deal of the day">
+                </div>
+                <div class="the_deal">
+                    <a href="daily_deals.html">
+                        <div class="deal_product">
+                            <div class="deal_image">
+                                <img src="images/loui_vuiton_sheet.jpg" alt="Louis vuiton bedsheet deal">
+                            </div>
+                            <div class="deal_details">
+                                <p>Classic Loui Vuiton Bed sheet</p>
+                                <p><s>N10,000</s> N5,000</p>
+                                <p>50% Off</p>
+                                <button>Order Now</button>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Client testimonies -->
+        <section id="testimonial">
+            <h2>Testimonies from our clients</h2>
+            <hr size="5">
+            <div class="testimonialSlide">
+                <div class="testimoniesSlide">
+                    <div class="testimonies">
+                        <p><q>Temix empire are professional in cake making and always deliver ontime. They are my first choice when ever i am hosting a party or any events. Patronize them, you wont regret it.</q></p>
+                        <p class="testifiers">Josh Elemand<br><span>Warri, Nigeria</span></p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Temix empire are professional in cakes and always deliver ontime. They are my first choice when ever i am hosting a party or any events. Patronize them, you wont regret it.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Temix empire are professional in cakes and always deliver ontime. They are my first choice when ever i am hosting a party or any events. Patronize them, you wont regret it.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                    <div class="testimonies">
+                        <p><q>Temix empire are professional in cakes and always deliver ontime. They are my first choice when ever i am hosting a party or any events. Patronize them, you wont regret it.</q></p>
+                        <p class="testifiers">Josh Elemand</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="trends">
+            <h2>Our thoughts</h2>
+            <hr size="5">
+            <div class="trendPosts">
+                <article><a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/cake_blog.jpg" alt="custard cake">
+                        <figcaption><h3>How to make custard cake</h3><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam tempore explicabo velit culpa voluptas. Temporibus earum ut doloremque quasi a!</p></figcaption>
+                    </figure></a>
+                </article>
+                <article><a href="javascript:void(0);">
+                    <figure>
+                        <img src="images/event2.jpg" alt="custard cake">
+                        <figcaption><h3>Make your event a memorable one</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores at rem, ea nihil autem nostrum eveniet explicabo nulla similique laborum!</p></figcaption>
+                    </figure></a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="mainFooter">
+            <section class="mainFooter1">
+                <div class="contactAddress">
+                    <h3>For more info and to book an appointment</h3>
+                    <div class="address">
+                        <i class="fas fa-home" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Head office:</h4>
+                            <p>360 Housing Complex Road  Ekpan, Effurun, <br> Delta state</p>
+                        </div>
+                    </div>
+                    <div class="address phone">
+                        <i class="fas fa-phone-volume" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Call us:</h4>
+                            <p>09023140300<br>08157985866</p>
+                        </div>
+                    </div>
+                    <div class="address email">
+                        <i class="fas fa-envelope-open-text" style="color:rgba(170, 5, 170, 0.521); font-size: 2.5em;"></i>
+                        <div class="addtext">
+                            <h4>Email:</h4>
+                            <p>info@temixempire.com <br>sales@temixempire.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscribe_category">
+                    <div class="subscribe">
+                        <h3>Please subscribe to our newsletter</h3>
+                        <form id="subscribe" method="post" action="subscribe.php">
+                            <input type="email" id="email" placeholder="enter your email">
+                            <input type="submit" id="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="category">
+                        <h3>Links</h3>
+                        <div class="categories">
+                            <li><a href="#">Wedding Cakes</a></li>
+                            <li><a href="#">Birthday Cakes</a></li>
+                            <li><a href="#">Beddings</a></li>
+                            <li><a href="#">Decorations</a></li>
+                            <li><a href="#">Event planning</a></li>
+                            <li><a href="#">Make Over</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialMedia_workHours">
+                    <div class="socialMedia">
+                        <h3>Follow us on social media</h3>
+                        <div class="socialLinks">
+                            <a target="_blank" href="https://facebook.com/temixempire" title="Temix empire on facebook"><img src="images/facebook_icon.png"></a>
+                            <a target="_blank" href="https://twitter.com/TemixEmpire" title="Temix empire on twitter"><img src="images/twitter_icon.png"></a>
+                            <a target="_blank" href="https://instagram.com/Temix_empire" title="Temix empire on instagram"><img src="images/instagram_icon.png"></a>
+                            <a target="_blank" href="https://linkedin.com/TemixEmpire" title="Temix empire on Linkedin"><img src="images/linkedin_icon.png"></a>
+                        </div>
+                    </div>
+                    <div class="workingHours">
+                        <h3>Working hours</h3>
+                        <div class="hours">
+                            <p>Mondays to Fridays: 7:30am - 5:00pm</p><br>
+                            <p>Saturdays: 9:00am - 2:00pm</p>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </section>
+        <section class="secondaryFooter">
+            <p>&copy;2020 Temix Empire. All Rights Reserved. Powered by <a target="_blank" href="https://onostarmedia.com.ng">Onostar Media</a></p>
+        </section>
+    </footer>
+    <div class="help" id="help">
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=2348157985866"><i class="fab fa-whatsapp"></i> Hello, How can we help?</a>
+    </div>
+    <div class="toTop">
+        <a href="#topHeader"><i class="fas fa-arrow-up" style="color:#fff;" size="10"></i></a>
+    </div>
+</body>
+</html>
