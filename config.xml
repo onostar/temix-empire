@@ -17,6 +17,8 @@
       Onostar Media
   </author>
   <icon src="images/temix_empire_logo.png" />
+  npm i cordova-plugin-inappbrowser
   <plugin name="cordova-plugin-inappbrowser" spec="~3.2.0" />
+  
 
 </widget>
