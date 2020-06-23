@@ -1,20 +1,17 @@
-<?php 
-    $name = $_POST['name'];
+<?php
     $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $service = $_POST['service'];
-    $message = $_POST['content'];
-    $formContent = "From: $name \n Phone: $phone \n Service: $service \n Message: $message";
-    $recipient = "info@temixempire.com";
-    $subject = "Message from Contact form";
-    $mailheader = "From: $email \r\n";
-    mail($recipient, $subject, $formContent, $mailheader);or die("Error!");
+    $message = "Contact form from:\n $email \n";
+    $recipient = "info@onostarmedia.com.ng";
+    $subject = "Subscription form";
+    $mailheader ="From: $email \r \n";
+    mail($recipient, $subject, $message, $mailheader);
+    or die ("Error!");
     echo "<!DOCTYPE html>
-    <html lang='en'>
+    <html lang='e'>
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Contact - Temix empire</title>
+        <title>Subscription successful! - Temix empire</title>
         <style>
             *{
                 margin:0;
@@ -89,15 +86,14 @@
         </style>
     </head>
     <body>
-            <div class='contact_background'>
-                <img src='images/temix-empire-contact.jpg' alt='temix empire contact'>
-            </div>
+        <div class='contact_background'>
+            <img src='images/contact2.jpg' alt='temix empire contact'>
+        </div>
         <div id='daily_deals_success'>
-            <p>Thanks for contacting us! <br>
-            We will be in touch shortly.</p>
-            <button><a href='index.html'>Home</a></button>
+            <p>Thanks for joining our community! <br>
+            Look out for daily tips and tricks.</p>
+            <button><a href='index.html'>Ok</a></button>
         </div>
     </body>
     </html>";
-
 ?>
