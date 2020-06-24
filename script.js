@@ -1,4 +1,4 @@
-window.onscroll = function(){displayAbout(), displayCallToAction(), displayTotopButton(), displayDealOfTheDay(), displayCeo()}
+window.onscroll = function(){ displayTotopButton(),displayAbout(), displayCallToAction(), displayDealOfTheDay()}
 function displayMenu(){
     let myMenu = document.getElementById('navigation');
     if(myMenu.style.display === "block"){
@@ -58,12 +58,3 @@ function displayDealOfTheDay(){
     }
 }
 
-// display ceo on scroll
-function displayCeo(){
-    if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
-        document.querySelector('.ceoImg').style.display = "block";
-    }
-    else{
-        document.querySelector('.ceoImg').style.display = "none";
-    }
-}
